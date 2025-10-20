@@ -128,8 +128,8 @@ CRUD_app2/
 ## 🧑‍💻 Author
 
 **[Your Name]**  
-💼 GitHub: [@yourusername](https://github.com/yourusername)  
-📧 Email: youremail@example.com  
+💼 GitHub: [@AustinKipsigei](https://github.com/yourusername)  
+📧 Email: austin.kipsigei@gmail.com
 
 ---
 
