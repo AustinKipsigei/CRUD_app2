@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Update Task{% endblock %}
+
+{% block content %}
+<div class="card shadow-sm">
+  <div class="card-body">
+    <h1 class="text-center mb-4 text-success">Update Task</h1>
+
+    <form method="POST" class="d-flex mb-3">
+      <input type="text" name="task" class="form-control me-2" value="{{ task.content }}" required>
+      <button type="submit" class="btn btn-success">Update</button>
+    </form>
+
+    <div class="text-center">
+      <a href="{{ url_for('main.index') }}" class="btn btn-outline-secondary">Back to Task List</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
